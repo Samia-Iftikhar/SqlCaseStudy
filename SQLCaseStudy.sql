@@ -43,7 +43,6 @@ max(case when rows_number = round((0.95 * total_rows),0) then days_difference en
 from rows_
 group by region_name;
 
-
 #B. Customer Transactions
 #1. What is the unique count and total amount for each transaction type?
 
